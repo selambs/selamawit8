@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Document</title>
+   <script>
+     function suffix(x,y){
+let temp="";
+for(let i=0;i<x.length;i++)
+{
+if(x[x.length-1-i]==y[y.length-1-i])
+{
+    temp=temp+x[x.length-1-i];
+}
+else break;
+}
+return temp;
+     }
+     let x="walkings"
+let y="swimmings"
+let result=suffix(x,y);
+let sp=result.split("");
+let rsw=sp.reverse();
+let jw=rsw.join("");
+     alert(jw);
+   </script>
+</head>
+<body>
+</body>
+</html>

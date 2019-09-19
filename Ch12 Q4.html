@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>Upper case</title>
+    <script>
+        /*Input: 
+        *process: 
+        *Output: 
+        */
+        function switchCase(s) {
+            let newString = [];
+            for (let i = 0; i < s.length; i++) {
+                newString[i] = s.toUpperCase();
+                return newString;
+            }
+        }
+        let s = "catch 22";
+        alert(switchCase(s));
+
+        // mapping method is not working for me
+        // let s = "catch 22";
+        // let caseUpper = s.map(n => n.toUpperCase());
+        // alert(caseUpper);
+
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>

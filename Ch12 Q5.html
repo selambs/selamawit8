@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>Upper case</title>
+    <script>
+        /*Input: 
+        *process: 
+        *Output: 
+        */
+        function switchCase(s) {
+            let copy =[];
+            for (let i = 0; i < s.length; i++) {
+                copy = s[0].toUpperCase()+s.slice(1);
+                return copy;
+            }
+        }
+        let s = "catch 22";
+        alert(switchCase(s));
+        
+
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>
